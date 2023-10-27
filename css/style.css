@@ -5,15 +5,3 @@
 .ham-active{
   
 }
-
-.ham-active > span:first-child{
-  transform-origin: left top;
-  transform: rotate(45deg);
-}
-.ham-active > span:nth-child(2){
-  width: 30px;
-}
-.ham-active > span:nth-child(3){
-  transform-origin: bottom right;
-  transform: rotate(90deg);
-}
