@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth scroll-pt-[9rem]">
 
 <head>
   <meta charset="UTF-8">
@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="p-2 bg-slate-50 box-content font-mono flex flex-col gap-2">
-  <nav class="bg-slate-900 relative text-sm items-center py-4 rounded-lg text-white px-3 flex justify-between">
+<body class="p-2 bg-slate-50 font-mono flex flex-col gap-2">
+  <nav class="bg-slate-900 relative w-full text-sm items-center py-4 rounded-lg text-white px-3 flex justify-between">
     <a href="index.html" class="text-xl font-black">Alif rahman</a>
-    <div id="hamburger" class="flex flex-col gap-1 items-end fa-solid fa-bars text-2xl"></div>
+    <div id="hamburger" class="flex flex-col gap-1 items-end fa-solid fa-bars text-2xl lg:hidden"></div>
     <div id="navMenu"
       class="absolute transition-all ease-in-out hidden space-y-4 text-slate-50 right-0 mt-1 max-w-[250px] w-full shadow font-bold bg-slate-800 p-3 rounded-lg top-full">
       <a href="#about" class="block">Tentang saya</a>
@@ -26,7 +26,7 @@
   <main class="flex flex-col gap-2">
     <section id="about" class="rounded-lg p-2 bg-slate-300">
       <h2 class="border-b-slate-900 border-b-4 text-lg font-bold inline-block">Tentang saya</h2>
-      <div class="flex flex-col items-center my-3">
+      <div class="flex flex-col md:flex-row items-center my-3">
         <img src="img/uta.jpg" class="text-center rounded-full w-[50%] mb-3 border-[.3rem] border-slate-900" alt="">
         <h2>Hi semuanya 👋. Namaku</h2>
         <div class="text-lg font-bold">Alif rahman</div>
