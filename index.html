@@ -12,35 +12,41 @@
 </head>
 
 <body class="p-2 bg-slate-50 font-mono flex flex-col gap-2">
-  <nav class="bg-slate-900 relative w-full text-sm items-center py-4 rounded-lg text-white px-3 flex justify-between">
+  <nav class="bg-slate-900 relative w-full text-sm items-center py-4 rounded-lg text-white px-3 flex justify-between lg:m-auto lg:w-[70%]">
     <a href="index.html" class="text-xl font-black">Alif rahman</a>
     <div id="hamburger" class="flex flex-col gap-1 items-end fa-solid fa-bars text-2xl lg:hidden"></div>
     <div id="navMenu"
-      class="absolute transition-all ease-in-out hidden space-y-4 text-slate-50 right-0 mt-1 max-w-[250px] w-full shadow font-bold bg-slate-800 p-3 rounded-lg top-full">
-      <a href="#about" class="block">Tentang saya</a>
-      <a href="#Portofolio" class="block">Portofolio</a>
-      <a href="#kontak" class="block">Kontak saya</a>
-      <a href="#galery" class="block">Galery</a>
+      class="absolute lg:relative transition-all ease-in-out hidden lg:flex lg:space-y-0 space-y-4 text-slate-50 right-0 lg:gap-6 mt-1 lg:max-w-fit max-w-[250px] w-full shadow font-bold lg:bg-opacity-0 lg:shadow-none bg-slate-800 lg:p-0 p-3 rounded-lg top-full">
+      <a href="#about" class="block lg:inline">Tentang saya</a>
+      <a href="#Portofolio" class="block lg:inline">Portofolio</a>
+      <a href="#kontak" class="block lg:inline">Kontak saya</a>
+      <a href="#galery" class="block lg:inline">Galery</a>
     </div>
   </nav>
-  <main class="flex flex-col gap-2">
-    <section id="about" class="rounded-lg p-2 bg-slate-300">
-      <h2 class="border-b-slate-900 border-b-4 text-lg font-bold inline-block">Tentang saya</h2>
-      <div class="flex flex-col md:flex-row items-center my-3">
-        <img src="img/uta.jpg" class="text-center rounded-full w-[50%] mb-3 border-[.3rem] border-slate-900" alt="">
-        <h2>Hi semuanya 👋. Namaku</h2>
-        <div class="text-lg font-bold">Alif rahman</div>
-        <p class="p-2">Ini adalah halaman portofolio sederhana yang aku buat menggunakan framework css tailwind dan juga
-          sedikit javascript dasar.</p>
-        <h2 class="font-bold mt-3">Ayo kenalan.</h2>
-        <p class="p-2">Temukan dan kejutkan aku di sini.</p>
-        <div class="flex gap-3 text-xl text-slate-400">
-          <button><i class="fa-lg fa-brands fa-square-facebook"></i></button>
-          <button><i class="fa-lg fa-brands fa-instagram"></i></button>
-          <button><i class="fa-lg fa-brands fa-whatsapp"></i></button>
-          <button><i class="fa-lg fa-brands fa-tiktok"></i></button>
-          <button><i class="fa-lg fa-brands fa-youtube"></i></button>
-          <button><i class="fa-lg fa-brands fa-twitter"></i></button>
+  <main class="flex flex-col gap-2 lg:w-[70%] lg:justify-center lg:m-auto">
+    <section id="about" class="rounded-lg p-2 bg-slate-300 lg:bg-inherit lg:h-[80vh] lg:mt-12">
+      <h2 class="border-b-slate-900 border-b-4 text-lg font-bold inline-block lg:hidden">Tentang saya</h2>
+        <div class="flex flex-col items-center my-auto text-center lg:flex-col mt-4">
+          <div class="lg:flex lg:flex-1 lg:justify-between lg:gap-[16rem] items-center">
+            <img src="img/uta.jpg" class="rounded-full w-[50%] m-auto lg:w-[30%] mb-3 border-[.3rem] border-slate-900" alt="">
+            <div class="lg:flex lg:flex-col">
+              <h2 class="lg:w-full">Hi semuanya 👋. Namaku</h2>
+              <div class="text-lg font-bold">Alif rahman</div>
+              <p class="p-2 lg:p-0">Ini adalah halaman portofolio sederhana yang aku buat menggunakan framework css tailwind dan juga
+                sedikit javascript dasar.</p>
+            </div>
+          </div>
+          <div class="lg:flex-1 lg:items-center lg:justify-center lg:text-center lg:w-full">
+            <h2 class="font-bold mt-3">Ayo kenalan.</h2>
+            <p class="p-2">Temukan dan kejutkan aku di sini.</p>
+            <div class="flex gap-3 text-xl text-slate-400 justify-center">
+              <button><i class="fa-lg fa-brands fa-square-facebook"></i></button>
+              <button><i class="fa-lg fa-brands fa-instagram"></i></button>
+              <button><i class="fa-lg fa-brands fa-whatsapp"></i></button>
+              <button><i class="fa-lg fa-brands fa-tiktok"></i></button>
+              <button><i class="fa-lg fa-brands fa-youtube"></i></button>
+              <button><i class="fa-lg fa-brands fa-twitter"></i></button>
+          </div>
         </div>
       </div>
     </section>
