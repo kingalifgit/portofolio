@@ -19,9 +19,9 @@ window.onscroll = function () {
   const fix = nav.offsetTop;
 
   if (window.pageYOffset > fix) {
-    nav.classList.add("fixed", "w-full", "left-0", "top-0", "mt-3", "bg-opacity-80","rounded-b-lg", "rounded-t-none" ,"fix-nav", "right-0")
+    nav.classList.add("fixed", "w-full", "left-0", "top-0", "bg-opacity-80","rounded-b-lg", "rounded-t-none" ,"fix-nav", "right-0")
     nav.classList.remove('relative')
-    navMenu.classList.add("mr-2")
+    // navMenu.classList.add("mr-2")
   } else {
     navMenu.classList.remove("mr-2")
     nav.classList.add('relative')
